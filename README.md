@@ -1,2 +1,28 @@
-# Coin-Detection-using-OpenCV
-A computer vision project built with OpenCV that detects and counts coins (circular objects) in both images and real-time webcam feed. The system uses classical image processing techniques such as grayscale conversion, Gaussian blur, edge detection, contour analysis, and Hough Circle Transform to accurately identify coins
+# 🪙 Coin Detection using OpenCV
+
+A simple computer vision project that detects and counts coins using OpenCV in both images and webcam stream.
+
+---
+
+## Features
+- Coin detection in static images
+- Real-time detection using webcam
+- Circle detection using OpenCV (Contours / HoughCircles)
+- Image preprocessing pipeline
+
+---
+
+## Techniques Used (OpenCV)
+- cv2.cvtColor (Grayscale conversion)
+- Gaussian Blur (Noise reduction)
+- Canny Edge Detection
+- cv2.findContours
+- cv2.dilate / morphology operations
+- cv2.HoughCircles
+- cv2.drawContours / cv2.circle
+
+---
+## Installation
+
+```bash
+pip install opencv-python numpy matplotlib
